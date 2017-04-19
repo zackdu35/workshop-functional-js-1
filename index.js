@@ -1,3 +1,8 @@
-let chalk = require('chalk');
+const chalk = require('chalk');
+const exercise1 = require('./src/exercise1');
 
-console.log(chalk.green('Hello world'));
+const exercise = exercise1;
+
+const input = [];
+
+console.log(chalk.yellow('RESULT', exercise.run(input)));
