@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const zip = require('../src/exercise1').zip;
 
-describe.skip('GIVEN function zip', function() {
+describe('GIVEN function zip', function() {
 
   it('WHEN array is empty THEN should return empty array', function() {
     expect(zip([])).to.eql([]);

@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const reverseString = require('../src/exercise3').reverseString;
 
-describe.skip('GIVEN function reverseString', function() {
+describe('GIVEN function reverseString', function() {
 
   const oldSchoolWay = (input) => input.split('').reverse().join('')
 
