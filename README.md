@@ -75,3 +75,19 @@ After finish this exercise, please commit all your files.
 	git add .
 
 	git commit -m "Exercise 3"
+
+### Exercise 4
+
+Implement the function +asyncYolo()+ in file **_src/exercise4.js_**, the output is always the same.
+
+The difficulty is to use the 2 promises defined before to return the result.
+
+There is another problem, the test written in file **_test/exercise4.test.js_** is good but only in a synchronous way, you should update it to become asynchronous friendly.
+
+:point_right: [setTimeout](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
+
+After finish this exercise, please commit all your files.
+
+	git add .
+
+	git commit -m "Exercise 4"

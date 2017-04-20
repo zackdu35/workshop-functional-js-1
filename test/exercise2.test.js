@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const reverseYolo = require('../src/exercise2').reverseYolo;
 
-describe('GIVEN function reverseYolo', function() {
+describe.skip('GIVEN function reverseYolo', function() {
 
   it('WHEN my mystery input THEN my wonderful output', function() {
 
