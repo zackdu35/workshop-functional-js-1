@@ -32,7 +32,7 @@ Please verify that after all exercises the linter should not return errors.
 
 ### Exercise 1
 
-Implement the function +zip([array])+ in file **_src/exercise1.js_** where the input is an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on.
+Implement the function +zip(input)+ in file **_src/exercise1.js_** where the input is an array of grouped elements, the first of which contains the first elements of the given arrays, the second of which contains the second elements of the given arrays, and so on.
 
 You don't understand what you need to do ?
 
@@ -59,3 +59,19 @@ After finish this exercise, please commit all your files.
 	git add .
 
 	git commit -m "Exercise 2"
+
+### Exercise 3
+
+Implement the function +reverseString(input)+ in file **_src/exercise3.js_** where the input is a string, the output the same string but in a reverse order.
+
+It's an easy task with old known functions, BUT the real challenge is to do this in a recursive way.
+
+You don't understand what you need to do ?
+
+All tests are written in file **_test/exercise3.test.js_** and they should pass with success.
+
+After finish this exercise, please commit all your files.
+
+	git add .
+
+	git commit -m "Exercise 3"
