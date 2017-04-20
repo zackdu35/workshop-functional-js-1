@@ -7,7 +7,7 @@ describe('GIVEN function asyncYolo', function() {
 
     // Your future job begins here ...
 
-    expect(asyncYolo()).to.eql([101, 102, 203]),
+    expect(asyncYolo()).to.eql([101, 102, 203]);
   });
 
 });
