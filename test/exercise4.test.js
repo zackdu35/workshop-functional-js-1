@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const asyncYolo = require('../src/exercise1').asyncYolo;
+const asyncYolo = require('../src/exercise4').asyncYolo;
 
 describe('GIVEN function asyncYolo', function() {
 
@@ -7,7 +7,7 @@ describe('GIVEN function asyncYolo', function() {
 
     // Your future job begins here ...
 
-    expect(asyncYolo()).to.eql([101, 102, 203]);
+    expect(asyncYolo()).should.eventually.equal([101, 102, 203]);
   });
 
 });

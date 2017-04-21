@@ -11,11 +11,16 @@ var promiseStrings = new Promise(function (fulfill, reject) {
   setTimeout(fulfill, 2000, ['1' , 'un', '2', '3', 'cinq'])
 })
 
-const asyncYolo = (input) => {
-
-  // Your future job begins here ...
-
+var onRejected = () => {
+	console.log('Error Promise : erreur dans un des éléments',data);
 }
+
+
+const asyncYolo = () => {
+	Promise.all([promiseNumbers, promiseStrings]).then(arrays => { console.log(_.sum(arrays)) })
+}
+
+asyncYolo()
 
 module.exports = {
   asyncYolo: asyncYolo,
